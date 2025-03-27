@@ -106,3 +106,72 @@ Crafted with ❤️ by a Seamedu Cyber Arena enthusiast.
 > ❗ Unauthorized access or misuse of hacking tools is illegal and unethical.
 
 ---
+---
+
+## 💻 How to Download & Run This Toolkit
+
+### 🪟 For Windows Users
+
+#### ✅ Using Git Bash or WSL:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/seamedu-cyber-arena.git
+   cd seamedu-cyber-arena
+   ```
+
+2. **Make the script executable (in Git Bash or WSL):**
+   ```bash
+   chmod +x seamedu_hacking_toolkit.sh
+   ```
+
+3. **Run the script:**
+   ```bash
+   ./seamedu_hacking_toolkit.sh
+   ```
+
+4. **Open the PDF cheat sheet:**
+   - Navigate to the repo folder and double-click the PDF file.
+   - Or open it in any PDF reader.
+
+---
+
+### 🐧 For Linux Users
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/seamedu-cyber-arena.git
+   cd seamedu-cyber-arena
+   ```
+
+2. **Make the script executable:**
+   ```bash
+   chmod +x seamedu_hacking_toolkit.sh
+   ```
+
+3. **Run the script:**
+   ```bash
+   ./seamedu_hacking_toolkit.sh
+   ```
+
+4. **Open the PDF cheat sheet:**
+   ```bash
+   xdg-open Advanced_Ethical_Hacking_Cheat_Sheet.pdf
+   ```
+
+---
+
+## 📥 Download Individual Files (Optional)
+
+To download a single file from GitHub:
+
+1. Open the file on GitHub (e.g., `seamedu_hacking_toolkit.sh`)
+2. Click on **"Raw"**
+3. Right-click > **Save As**
+
+Or via terminal:
+
+```bash
+wget https://raw.githubusercontent.com/your-username/seamedu-cyber-arena/main/seamedu_hacking_toolkit.sh
+```
+
+---
