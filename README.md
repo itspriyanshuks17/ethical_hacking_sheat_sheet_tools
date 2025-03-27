@@ -1,4 +1,4 @@
-# 🛡️Ethical Hacking CLI Toolkit
+# 🛡️ Ethical Hacking CLI Toolkit
 
 ## 📄 PDF Cheat Sheet Download
 
@@ -173,5 +173,41 @@ Or via terminal:
 ```bash
 wget https://raw.githubusercontent.com/your-username/seamedu-cyber-arena/main/seamedu_hacking_toolkit.sh
 ```
+
+---
+
+---
+
+## 🪟 How to Run the Batch Script on Windows
+
+This script automates ethical hacking tasks using **WSL (Windows Subsystem for Linux)**.
+
+### ✅ Prerequisites
+
+- Windows 10 or 11 with WSL installed
+- WSL Linux distro (like Ubuntu) set up with tools: `nmap`, `gobuster`, `hydra`, `ssh`
+- Git Bash or Command Prompt
+
+### 🔧 Steps to Run
+
+1. **Download the script**:
+   - Download `seamedu_hacking_toolkit.bat` from this repository.
+
+2. **Open Command Prompt** (`cmd.exe`) or right-click the `.bat` file and choose **"Run as Administrator"**.
+
+3. **Follow on-screen prompts**:
+   - Enter subnet (e.g., `192.168.1.0/24`)
+   - Enter target IP and username for SSH, etc.
+
+4. **Check output files**:
+   - The script generates files like `live_hosts.txt`, `port_scan_<ip>.txt`, `gobuster_<ip>.txt`, and more.
+
+### ⚠️ Note
+- WSL must be installed and configured. [Install WSL Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+- You can install tools in WSL using:
+  ```bash
+  sudo apt update && sudo apt install nmap gobuster hydra openssh-client -y
+  ```
+- Only for educational and ethical purpose
 
 ---
